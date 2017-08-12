@@ -1,0 +1,8 @@
+{
+    "sublime_text": ">=3124",
+    "version": "1.0.0",
+    "platforms": ["*"],
+    "url": "https://github.com/aprudent/Noseblime",
+    "description": "A Nose plugin for Sublime Text",
+    "dependencies": []
+}

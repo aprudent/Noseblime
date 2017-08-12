@@ -1,0 +1,25 @@
+{
+    // The nose program to run.
+    "program": "nose2",
+
+    // Additional arguments to provide to the nose command line.
+    "args": ["-v"],
+
+    // Regular expression to retrieve file path and line of execution errors
+    // (see 'file_regex' for Sublime Text build system).
+    "result_file_regex": "^\\s*File \"(.+)\", line ([0-9]+),.*$",
+
+    // Regular expression that a file path must match to be considered as
+    // a testable nose file.
+    // For a matching file path, makes 'Nose' actions visible in :
+    //  - command palette,
+    //  - side bar contextual menu,
+    //  - view contextual menu.
+    "test_file_regex": "(?:\\b|_)[Tt]est.*\\.py$",
+
+    // Regular expression that a directory path must include to be considered as
+    // a testable nose directory
+    // For a matching directory path, makes 'Nose' visible in the side bar
+    // contextual menu.
+    "test_dir_regex": "[Tt]est",
+}

@@ -1,0 +1,22 @@
+[
+     {
+        "id": "preferences",
+        "children":
+        [
+            {
+                "id": "package-settings",
+                "children":
+                [
+                    {
+                        "command": "edit_settings",
+                        "args": {
+                            "base_file": "${packages}/Noseblime/Noseblime.sublime-settings",
+                            "default": "{\n\t\n}",
+                        },
+                        "caption": "Noseblime"
+                    },
+                ]
+            }
+        ]
+    }
+]

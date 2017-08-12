@@ -1,0 +1,12 @@
+[
+    {
+        "caption": "Nose: Run (at carets position)",
+        "command": "nose_run",
+        "args": {  }
+    },
+    {
+        "caption": "Nose: Run file",
+        "command": "nose_run",
+        "args": { "force_file": true  }
+    },
+]

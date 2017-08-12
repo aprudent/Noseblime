@@ -1,0 +1,7 @@
+[
+    {
+        "caption": "Nose",
+        "id": "plugin_noseblime_run",
+        "command": "nose_run",
+    }
+]
